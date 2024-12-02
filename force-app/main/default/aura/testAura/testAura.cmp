@@ -1,0 +1,4 @@
+<aura:component controller="Test_Myclass">
+    <aura:attribute name="message" type="String" />
+    <!-- test cicd 5-->
+</aura:component>

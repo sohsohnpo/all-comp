@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DuplicateRule xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <actionOnInsert>Allow</actionOnInsert>
+    <actionOnUpdate>Allow</actionOnUpdate>
+    <alertText>いずれか 1 つのレコードを使用しますか?</alertText>
+    <description>PipelineTestを使う</description>
+    <duplicateRuleFilter>
+        <booleanFilter xsi:nil="true"/>
+        <duplicateRuleFilterItems>
+            <field>FirstName</field>
+            <operation>notEqual</operation>
+            <value>CCC</value>
+            <sortOrder>1</sortOrder>
+            <table>User</table>
+        </duplicateRuleFilterItems>
+    </duplicateRuleFilter>
+    <isActive>false</isActive>
+    <masterLabel>PL_rules</masterLabel>
+    <operationsOnInsert>Alert</operationsOnInsert>
+    <operationsOnInsert>Report</operationsOnInsert>
+    <securityOption>EnforceSharingRules</securityOption>
+    <sortOrder>1</sortOrder>
+</DuplicateRule>

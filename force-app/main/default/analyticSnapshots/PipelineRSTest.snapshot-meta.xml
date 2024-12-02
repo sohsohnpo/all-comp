@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AnalyticSnapshot xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Pipeline　Reporting Snapshot　テスト</description>
+    <name>PipelineRSTest</name>
+    <runningUser>ss-pipelinecloud@sohsoh.co.jp</runningUser>
+    <sourceReport>TEST_FolderTEST_Folder/PipeLine_7Tt</sourceReport>
+    <targetObject>PipeLine__c</targetObject>
+</AnalyticSnapshot>

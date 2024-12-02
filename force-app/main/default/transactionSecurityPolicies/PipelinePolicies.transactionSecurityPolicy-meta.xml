@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TransactionSecurityPolicy xmlns="http://soap.sforce.com/2006/04/metadata">
+    <action>
+        <block>true</block>
+        <endSession>false</endSession>
+        <freezeUser>false</freezeUser>
+        <notifications>
+            <inApp>false</inApp>
+            <sendEmail>false</sendEmail>
+            <user>ss-pipelinecloud@sohsoh.co.jp</user>
+        </notifications>
+        <twoFactorAuthentication>false</twoFactorAuthentication>
+    </action>
+    <active>false</active>
+    <apexClass>PipelinePoliciesEventCondition</apexClass>
+    <description>PipelineTest</description>
+    <developerName>PipelinePolicies</developerName>
+    <eventName>ApiEvent</eventName>
+    <masterLabel>PipelinePolicies</masterLabel>
+    <type>CustomApexPolicy</type>
+</TransactionSecurityPolicy>

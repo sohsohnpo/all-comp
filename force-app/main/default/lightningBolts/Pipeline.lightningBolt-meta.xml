@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LightningBolt xmlns="http://soap.sforce.com/2006/04/metadata">
+    <category>GeneralBusiness</category>
+    <lightningBoltFeatures>
+        <order>1</order>
+        <title>PipelineTest</title>
+    </lightningBoltFeatures>
+    <lightningBoltImages>
+        <image>Test</image>
+        <order>1</order>
+    </lightningBoltImages>
+    <lightningBoltItems>
+        <name>PipelineApplictionTest</name>
+        <type>CustomApplication</type>
+    </lightningBoltItems>
+    <masterLabel>PipelineLBテスト</masterLabel>
+    <publisher>Kann</publisher>
+    <summary>検証ー＞デプロイ先</summary>
+</LightningBolt>

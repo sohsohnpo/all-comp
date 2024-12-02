@@ -1,0 +1,161 @@
+{
+  "type" : "sfdc_cms__themeLayout",
+  "title" : "Default Header and Footer",
+  "contentBody" : {
+    "component" : {
+      "attributes" : {
+        "fixThemeHeader" : false,
+        "showStickyFooter" : false,
+        "showStickyHeader" : false,
+        "stickyFooterBackgroundColor" : "rgb(35, 37, 100)",
+        "stickyHeaderBackgroundColor" : "rgb(35, 37, 100)"
+      },
+      "children" : [ {
+        "children" : [ {
+          "attributes" : {
+            "allowVisitorClose" : false,
+            "assistiveText" : "",
+            "buttonVerticalAlignment" : "Top",
+            "closeStyle" : "X Icon - Dark",
+            "mobileMaxHeight" : 10
+          },
+          "children" : [ {
+            "id" : "5a3e4737-27f3-4ab3-a631-8a708dc3a08a",
+            "name" : "content",
+            "title" : "content",
+            "type" : "region"
+          } ],
+          "definition" : "dxp_page_layout:sectionTopSetting",
+          "id" : "e891baf8-88c5-4f0a-80d2-4f3b208c2520",
+          "type" : "component"
+        } ],
+        "id" : "2165301c-9d2c-4c88-b3be-39e01af4f9c8",
+        "name" : "stickyHeader",
+        "title" : "テーマの固定ヘッダー",
+        "type" : "region"
+      }, {
+        "children" : [ {
+          "attributes" : {
+            "height" : 50,
+            "imageInfo" : "{}",
+            "imageOverlayColor" : "rgba(0,0,0,0)",
+            "logoLocation" : "center",
+            "logoWidth" : 75,
+            "menuStyle" : "hamburger",
+            "showLogo" : true
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "menuAlignment" : "left",
+                "menuSpacing" : "none",
+                "menuStyle" : "horizontal",
+                "showHomeLink" : true,
+                "textDecoration" : "none",
+                "visibleMenuItemsCount" : 10
+              },
+              "definition" : "community_navigation:multiLevelNavigationWrapper",
+              "id" : "19e7fced-73ea-424d-ad27-352c5006c6b6",
+              "type" : "component"
+            } ],
+            "id" : "bd317f28-2c2c-429d-b371-24b1f6e5de29",
+            "name" : "horizontalNavigation",
+            "title" : "水平ナビゲーションメニュー",
+            "type" : "region"
+          }, {
+            "children" : [ {
+              "attributes" : {
+                "menuAlignment" : "left",
+                "menuSpacing" : "none",
+                "menuStyle" : "hamburger",
+                "showHomeLink" : true,
+                "textDecoration" : "none",
+                "visibleMenuItemsCount" : 10
+              },
+              "definition" : "community_navigation:multiLevelNavigationWrapper",
+              "id" : "87961f91-da6c-4918-9b13-733194e392d6",
+              "type" : "component"
+            } ],
+            "id" : "9ef2e564-b1fd-416b-9bca-3344e9b54431",
+            "name" : "hamburgerNavigation",
+            "title" : "ハンバーガーナビゲーションメニュー",
+            "type" : "region"
+          } ],
+          "definition" : "dxp_content_layout:header",
+          "id" : "7b71d2fd-670e-41a6-84d4-1edeef8c9696",
+          "type" : "component"
+        } ],
+        "id" : "162ded67-9e99-4d87-a8f1-5d35e263fc8c",
+        "name" : "header",
+        "title" : "テーマのヘッダー",
+        "type" : "region"
+      }, {
+        "children" : [ {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"8aa45a2f-2c8c-41d9-80bb-d3eac35bc38a\",\"columns\":[{\"UUID\":\"1bccf63e-22a7-413a-9ab3-53a6ef3ecee9\",\"columnName\":\"Column 1\",\"columnKey\":\"footerSection\",\"columnWidth\":\"12\",\"seedComponents\":null}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "id" : "1bccf63e-22a7-413a-9ab3-53a6ef3ecee9",
+            "name" : "footerSection",
+            "title" : "テーマのフッター",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "8aa45a2f-2c8c-41d9-80bb-d3eac35bc38a",
+          "type" : "component"
+        } ],
+        "id" : "cbddf275-d80c-485d-9de6-85d7f2cea28f",
+        "name" : "footer",
+        "title" : "テーマのフッター",
+        "type" : "region"
+      }, {
+        "children" : [ {
+          "attributes" : {
+            "allowVisitorClose" : false,
+            "assistiveText" : "",
+            "closeStyle" : "X Icon - Dark",
+            "hideWhenFooterInViewport" : false,
+            "mobileMaxHeight" : 10
+          },
+          "children" : [ {
+            "id" : "fb54fc99-d8b4-4aff-918e-06499ef4394a",
+            "name" : "content",
+            "title" : "content",
+            "type" : "region"
+          } ],
+          "definition" : "dxp_page_layout:sectionBottomSetting",
+          "id" : "bfc34fed-3866-48b2-a209-71d5a7235b9c",
+          "type" : "component"
+        } ],
+        "id" : "96a24d7f-7de5-42f2-96e3-54282596d76f",
+        "name" : "stickyFooter",
+        "title" : "テーマの固定フッター",
+        "type" : "region"
+      }, {
+        "children" : [ {
+          "attributes" : { },
+          "definition" : "dxp_page_layout:placeHolder",
+          "id" : "ab74cc6c-d07b-4f94-87f5-c00d6810707e",
+          "type" : "component"
+        } ],
+        "id" : "a4150c84-6504-48b1-b220-7219c0c10c21",
+        "name" : "placeHolder",
+        "title" : "プレースホルダー",
+        "type" : "region"
+      } ],
+      "definition" : "marketing_microsite:headerAndFooter",
+      "id" : "8aaf5413-dac6-4dd7-adaf-3f1aee92c346",
+      "type" : "component"
+    }
+  }
+}
