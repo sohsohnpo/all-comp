@@ -53,7 +53,7 @@
     </rules>
     <tasks>
         <fullName>PipelineWFTodo</fullName>
-        <assignedTo>ss-pipelinecloud@sohsoh.co.jp</assignedTo>
+        <assignedTo>ss-pipelinecloud@sohsoh.co.jp2</assignedTo>
         <assignedToType>user</assignedToType>
         <description>PipelineTest</description>
         <dueDateOffset>365</dueDateOffset>
