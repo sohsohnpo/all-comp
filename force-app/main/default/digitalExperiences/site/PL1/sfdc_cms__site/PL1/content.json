@@ -1,7 +1,0 @@
-{
-  "type" : "sfdc_cms__site",
-  "title" : "PLテスト",
-  "contentBody" : {
-    "authenticationType" : "AUTHENTICATED"
-  }
-}
