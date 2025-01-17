@@ -2,7 +2,7 @@
 public class AccountTriggerTest {
     @isTest
     static void testAccountNameToUpperCase() {
-        //テスト2 testsssssss 修正2
+        //テスト2 testsssssss 修正2２２２２
         Account testAccount = new Account(Name = 'test account');
         insert testAccount;
 
