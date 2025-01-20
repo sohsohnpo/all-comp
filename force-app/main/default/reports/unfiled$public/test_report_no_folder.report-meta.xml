@@ -22,7 +22,7 @@
         <field>LAST_UPDATE</field>
     </columns>
     <format>Tabular</format>
-    <name>レポートフォルダ無TEST</name>
+    <name>レポートフォルダ無TESTレポートフォルダ無</name>
     <params>
         <name>co</name>
         <value>1</value>
