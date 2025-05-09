@@ -2,7 +2,7 @@
 public class AccountTriggerTest {
     @isTest
     static void testAccountNameToUpperCase() {
-        //テスト2 testsssssss github-cicd-commit merge to main
+        //テスト2 testsssssss github-cicd-commit merge to main local1
         Account testAccount = new Account(Name = 'test account');
         insert testAccount;
 
