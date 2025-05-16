@@ -2,7 +2,7 @@
 public class AccountTriggerTest {
     @isTest
     static void testAccountNameToUpperCase() {
-        //copy-branch-commit2　複数CICD複数CICD複数CICD
+        //copy-branch-commit2　複数CICD複数CICD複数CICDｓｓ
         Account testAccount = new Account(Name = 'test account');
         insert testAccount;
 
